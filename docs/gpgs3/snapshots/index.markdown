@@ -1,53 +1,53 @@
-# gpgs.v3.snapshots
+# gpgs.snapshots
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [Table][api.type.Table]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs.v3.snapshots.*][plugin.gpgs3.snapshots]
->                       [gpgs.v3.*][plugin.gpgs3]
+> __See also__          [gpgs2.snapshots.*][plugin.gpgs2.snapshots]
+>                       [gpgs2.*][plugin.gpgs2]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-This is the Snapshots API node for the plugin. Note that you must Sign In withDrive. See [gpgs.v3.login][plugin.gpgs3.login]  
+This is the Snapshots API node for the plugin.
 
 ## Functions
 
-#### [gpgs.v3.snapshots.load(params)][plugin.gpgs3.snapshots.load]
+#### [gpgs2.snapshots.load(params)][plugin.gpgs2.snapshots.load]
 
-#### [gpgs.v3.snapshots.open(params)][plugin.gpgs3.snapshots.open]
+#### [gpgs2.snapshots.open(params)][plugin.gpgs2.snapshots.open]
 
-#### [gpgs.v3.snapshots.save(params)][plugin.gpgs3.snapshots.save]sw
+#### [gpgs2.snapshots.save(params)][plugin.gpgs2.snapshots.save]
 
-#### [gpgs.v3.snapshots.discard(snapshotId)][plugin.gpgs3.snapshots.discard]
+#### [gpgs2.snapshots.discard(snapshotId)][plugin.gpgs2.snapshots.discard]
 
-#### [gpgs.v3.snapshots.delete(params)][plugin.gpgs3.snapshots.delete]
+#### [gpgs2.snapshots.delete(params)][plugin.gpgs2.snapshots.delete]
 
-#### [gpgs.v3.snapshots.resolveConflict(params)][plugin.gpgs3.snapshots.resolveConflict]
+#### [gpgs2.snapshots.resolveConflict(params)][plugin.gpgs2.snapshots.resolveConflict]
 
-#### [gpgs.v3.snapshots.getSnapshot(snapshotId)][plugin.gpgs3.snapshots.getSnapshot]
+#### [gpgs2.snapshots.getSnapshot(snapshotId)][plugin.gpgs2.snapshots.getSnapshot]
 
-#### [gpgs.v3.snapshots.getLimits()][plugin.gpgs3.snapshots.getLimits]
+#### [gpgs2.snapshots.getLimits()][plugin.gpgs2.snapshots.getLimits]
 
-#### [gpgs.v3.snapshots.show(params)][plugin.gpgs3.snapshots.show]
+#### [gpgs2.snapshots.show(params)][plugin.gpgs2.snapshots.show]
 
 ## Events
 
-#### [load][plugin.gpgs3.snapshots.event.load]
+#### [load][plugin.gpgs2.snapshots.event.load]
 
-#### [open][plugin.gpgs3.snapshots.event.open]
+#### [open][plugin.gpgs2.snapshots.event.open]
 
-#### [save][plugin.gpgs3.snapshots.event.save]
+#### [save][plugin.gpgs2.snapshots.event.save]
 
-#### [delete][plugin.gpgs3.snapshots.event.delete]
+#### [delete][plugin.gpgs2.snapshots.event.delete]
 
-#### [resolveConflict][plugin.gpgs3.snapshots.event.resolveConflict]
+#### [resolveConflict][plugin.gpgs2.snapshots.event.resolveConflict]
 
-#### [show][plugin.gpgs3.snapshots.event.show]
+#### [show][plugin.gpgs2.snapshots.event.show]
 
 ## Types
 
-#### [Snapshot][plugin.gpgs3.snapshots.type.Snapshot]
+#### [Snapshot][plugin.gpgs2.snapshots.type.Snapshot]
 
-#### [SnapshotContents][plugin.gpgs3.snapshots.type.SnapshotContents]
+#### [SnapshotContents][plugin.gpgs2.snapshots.type.SnapshotContents]

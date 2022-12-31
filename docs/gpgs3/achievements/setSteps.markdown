@@ -1,12 +1,12 @@
-# gpgs.achievements.setSteps()
+# gpgs.v3.achievements.setSteps()
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [String][api.type.String]
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.achievements.*][plugin.gpgs2.achievements]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.v3.achievements.*][plugin.gpgs3.achievements]
+>                       [gpgs.v3.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -29,4 +29,4 @@ _[String][api.type.String]._ Achievement to update.
 _[Integer][api.type.Integer]._ Amount of steps for the achievement.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [setSteps][plugin.gpgs2.achievements.event.setSteps] event.
+_[Listener][api.type.Listener]._ Receives [setSteps][plugin.gpgs3.achievements.event.setSteps] event.
