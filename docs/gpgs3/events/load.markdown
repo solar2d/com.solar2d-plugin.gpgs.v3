@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.events.*][plugin.gpgs2.events]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.events.*][plugin.gpgs3.events]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -32,4 +32,4 @@ _[Array][api.type.Array]._ Populate with [string][api.type.String] elements. If 
 _[Boolean][api.type.Boolean]._ If `true`, the data will be pulled fresh, not from a cache.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [load][plugin.gpgs2.events.event.load] event.
+_[Listener][api.type.Listener]._ Receives [load][plugin.gpgs3.events.event.load] event.

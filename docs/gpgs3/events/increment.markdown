@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.events.*][plugin.gpgs2.events]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.events.*][plugin.gpgs3.events]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -26,4 +26,4 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Event to increment.
 
 ##### steps ~^(optional)^~
-_[Integer][api.type.Integer]._ Incremental value. Default is 1.
+_[Integer][api.type.Number]._ Incremental value. Default is 1.

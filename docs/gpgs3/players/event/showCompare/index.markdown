@@ -4,8 +4,8 @@
 > __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.players.*][plugin.gpgs2.players]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.players.*][plugin.gpgs3.players]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -18,10 +18,10 @@ Indicates that the compare players view was closed.
 
 ## Properties
 
-#### [event.name][plugin.gpgs2.players.event.showCompare.name]
+#### [event.name][plugin.gpgs3.players.event.showCompare.name]
 
-#### [event.isError][plugin.gpgs2.players.event.showCompare.isError]
+#### [event.isError][plugin.gpgs3.players.event.showCompare.isError]
 
-#### [event.errorMessage][plugin.gpgs2.players.event.showCompare.errorMessage]
+#### [event.errorMessage][plugin.gpgs3.players.event.showCompare.errorMessage]
 
-#### [event.errorCode][plugin.gpgs2.players.event.showCompare.errorCode]
+#### [event.errorCode][plugin.gpgs3.players.event.showCompare.errorCode]

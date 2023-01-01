@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.snapshots.*][plugin.gpgs2.snapshots]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.snapshots.*][plugin.gpgs3.snapshots]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -32,4 +32,4 @@ _[Boolean][api.type.Boolean]._ If `true`, in case of snapshot not being found wi
 _[String][api.type.String]._ The conflict resolution policy to use for this snapshot. Possibe values: `"manual"`, `"highest progress"`, `"last known good"`, `"longest playtime"`, `"most recently modified"`. Default is `"manual"`.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [open][plugin.gpgs2.snapshots.event.open] event.
+_[Listener][api.type.Listener]._ Receives [open][plugin.gpgs3.snapshots.event.open] event.

@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.leaderboards.*][plugin.gpgs2.leaderboards]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.leaderboards.*][plugin.gpgs3.leaderboards]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -32,4 +32,4 @@ Number. Score value.
 _[String][api.type.String]._ Optional extra info, must be URL safe, max size is 64 bytes.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [submit][plugin.gpgs2.leaderboards.event.submit] event.
+_[Listener][api.type.Listener]._ Receives [submit][plugin.gpgs3.leaderboards.event.submit] event.

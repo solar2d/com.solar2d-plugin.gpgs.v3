@@ -5,13 +5,17 @@
 > __Return value__      [Boolean][api.type.Boolean]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-Returns Boolean - `true` if the Google play games services libraries are available.
+isConnected to check if a player is automatically connected via [init][plugin.gpgs3.init] or manually [login][plugin.gpgs3.login] functions
 
 ## Syntax
 
-	gpgs.isConnected()
+	gpgs.isConnected(listener)
+
+
+##### listener ~^(optional)^~
+_[Listener][api.type.Listener]._ Receives [isConnected][plugin.gpgs3.event.isConnected] event.

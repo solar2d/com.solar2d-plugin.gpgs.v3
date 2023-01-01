@@ -4,8 +4,8 @@
 > __Type__              [String][api.type.String]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.events.*][plugin.gpgs2.events]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.events.*][plugin.gpgs3.events]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview

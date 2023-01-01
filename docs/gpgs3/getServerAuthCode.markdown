@@ -1,11 +1,11 @@
-# gpgs.v3.getServerAuthCode()
+# gpgs.getServerAuthCode()
 
 > --------------------- ------------------------------------------------------------------------------------------
 > __Type__              [String][api.type.String]
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs.v3.*][plugin.gpgs3]
+> __See also__          [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -25,4 +25,4 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Custom server's OAuth client id.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [getServerAuthCode][plugin.gpgs2.event.getServerAuthCode] event.
+_[Listener][api.type.Listener]._ Receives [getServerAuthCode][plugin.gpgs3.event.getServerAuthCode] event.

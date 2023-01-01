@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.players.*][plugin.gpgs2.players]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.players.*][plugin.gpgs3.players]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -26,4 +26,4 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[Boolean][api.type.Boolean]._ If `true`, the data will be pulled fresh, not from a cache.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [loadStats][plugin.gpgs2.players.event.loadStats] event.
+_[Listener][api.type.Listener]._ Receives [loadStats][plugin.gpgs3.players.event.loadStats] event.

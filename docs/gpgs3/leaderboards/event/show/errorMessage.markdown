@@ -5,10 +5,10 @@
 > __Event__             [show][leaderboards.event.show]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.leaderboards.*][plugin.gpgs2.leaderboards]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.leaderboards.*][plugin.gpgs3.leaderboards]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
 
-_[String][api.type.String]._ Description of an error when [event.isError][plugin.gpgs2.leaderboards.event.show.isError] is `true`, `nil` otherwise.
+_[String][api.type.String]._ Description of an error when [event.isError][plugin.gpgs3.leaderboards.event.show.isError] is `true`, `nil` otherwise.

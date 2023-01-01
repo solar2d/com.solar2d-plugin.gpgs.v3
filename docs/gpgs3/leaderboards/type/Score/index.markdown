@@ -4,8 +4,8 @@
 > __Type__              [Table][api.type.Table]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.leaderboards.*][plugin.gpgs2.leaderboards]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.leaderboards.*][plugin.gpgs3.leaderboards]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -14,16 +14,16 @@ Represents a leaderboard score.
 
 ## Properties
 
-#### [object.rank][plugin.gpgs2.leaderboards.type.Score.rank]
+#### [object.rank][plugin.gpgs3.leaderboards.type.Score.rank]
 
-#### [object.score][plugin.gpgs2.leaderboards.type.Score.score]
+#### [object.score][plugin.gpgs3.leaderboards.type.Score.score]
 
-#### [object.formattedRank][plugin.gpgs2.leaderboards.type.Score.formattedRank]
+#### [object.formattedRank][plugin.gpgs3.leaderboards.type.Score.formattedRank]
 
-#### [object.formattedScore][plugin.gpgs2.leaderboards.type.Score.formattedScore]
+#### [object.formattedScore][plugin.gpgs3.leaderboards.type.Score.formattedScore]
 
-#### [object.tag][plugin.gpgs2.leaderboards.type.Score.tag]
+#### [object.tag][plugin.gpgs3.leaderboards.type.Score.tag]
 
-#### [object.timestamp][plugin.gpgs2.leaderboards.type.Score.timestamp]
+#### [object.timestamp][plugin.gpgs3.leaderboards.type.Score.timestamp]
 
-#### [object.player][plugin.gpgs2.leaderboards.type.Score.player]
+#### [object.player][plugin.gpgs3.leaderboards.type.Score.player]

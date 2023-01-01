@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.snapshots.*][plugin.gpgs2.snapshots]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.snapshots.*][plugin.gpgs3.snapshots]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -35,7 +35,7 @@ _[Integer][api.type.Number]._ The number of milliseconds played by the player.
 _[Integer][api.type.Number]._ The progress value.
 
 ##### image ~^(optional)^~
-_[Table][api.type.Table]._ [Image][plugin.gpgs2.type.Image] object. File to upload and use as a snapshot cover image.
+_[Table][api.type.Table]._ [Image][plugin.gpgs3.type.Image] object. File to upload and use as a snapshot cover image.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [save][plugin.gpgs2.snapshots.event.save] event.
+_[Listener][api.type.Listener]._ Receives [save][plugin.gpgs3.snapshots.event.save] event.

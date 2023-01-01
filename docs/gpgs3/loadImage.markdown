@@ -5,7 +5,7 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -31,4 +31,4 @@ _[String][api.type.String]._ Path for the to be saved PNG image file.
 _[Constant][api.type.Constant]._ Constant corresponding to the base directory where the file will be located. Default value is `system.CachesDirectory` if the parameter is not provided.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [loadImage][plugin.gpgs2.event.loadImage] event.
+_[Listener][api.type.Listener]._ Receives [loadImage][plugin.gpgs3.event.loadImage] event.

@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.leaderboards.*][plugin.gpgs2.leaderboards]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.leaderboards.*][plugin.gpgs3.leaderboards]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -32,4 +32,4 @@ _[Boolean][api.type.Boolean]._ If `true`. show only scores for the current playe
 _[String][api.type.String]._ Can be one of these: `"all time"`, `"weekly"` - scores are reset each week, `"daily"` - scores are reset daily. Default is `"all time"`.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [show][plugin.gpgs2.leaderboards.event.show] event.
+_[Listener][api.type.Listener]._ Receives [show][plugin.gpgs3.leaderboards.event.show] event.

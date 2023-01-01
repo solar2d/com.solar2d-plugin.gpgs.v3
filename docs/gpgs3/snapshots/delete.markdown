@@ -5,8 +5,8 @@
 > __Return value__      none
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.snapshots.*][plugin.gpgs2.snapshots]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.snapshots.*][plugin.gpgs3.snapshots]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -26,4 +26,4 @@ _[Table][api.type.Table]._ Contains parameters — see the next section for deta
 _[String][api.type.String]._ Snapshot to delete.
 
 ##### listener ~^(optional)^~
-_[Listener][api.type.Listener]._ Receives [delete][plugin.gpgs2.snapshots.event.delete] event.
+_[Listener][api.type.Listener]._ Receives [delete][plugin.gpgs3.snapshots.event.delete] event.

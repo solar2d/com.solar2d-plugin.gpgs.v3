@@ -53,7 +53,7 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 	private ImageManager imageManager;
 
 	//region Lua functions
-	// require('plugin.gpgs.v2')
+	// require('plugin.gpgs.v3')
 	@Override
 	public int invoke(LuaState L) {
 		NamedJavaFunction[] luaFunctions = new NamedJavaFunction[] {
@@ -93,12 +93,12 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 
 
 		Utils.getDirPointers(L);
-		Utils.setTag("plugin.gpgs.v2");
+		Utils.setTag("plugin.gpgs.v3");
 
 		return 1;
 	}
 
-	// plugin.gpgs.v2.enableDebug()
+	// plugin.gpgs.v3.enableDebug()
 	private int enableDebug(LuaState L) {
 		Utils.enableDebug();
 		return 0;
@@ -122,7 +122,7 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 		return 1;
 	}
 
-	// plugin.gpgs.v2.login(params)
+	// plugin.gpgs.v3.login(params)
 	// params.userInitiated
 	// params.listener
 	private int login(LuaState L, final boolean isLegacy) {
@@ -157,14 +157,14 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 		return 0;
 	}
 
-	// plugin.gpgs.v2.logout()
+	// plugin.gpgs.v3.logout()
 	private int logout(LuaState L) {
 		Utils.debugLog("logout()");
 		connector.signOut();
 		return 0;
 	}
 
-	// plugin.gpgs.v2.getAccountName(listener)
+	// plugin.gpgs.v3.getAccountName(listener)
 	private int getAccountName(LuaState L) {
 		Utils.debugLog("getAccountName()");
 		String name = "getAccountName";
@@ -180,7 +180,7 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 		return 0;
 	}
 
-	// plugin.gpgs.v2.getServerAuthCode(params)
+	// plugin.gpgs.v3.getServerAuthCode(params)
 	// params.serverId
 	// params.listener
 	private int getServerAuthCode(LuaState L) {
@@ -229,13 +229,13 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 		return 0;
 	}
 
-	// plugin.gpgs.v2.clearNotifications(notificationTypes)
+	// plugin.gpgs.v3.clearNotifications(notificationTypes)
 	private int clearNotifications(LuaState L) {
 		LuaUtils.errorLog("clearNotifications() is no longer supported");
 		return 0;
 	}
 
-	// plugin.gpgs.v2.loadImage(params)
+	// plugin.gpgs.v3.loadImage(params)
 	// params.uri *
 	// params.filename *
 	// params.baseDir
@@ -384,7 +384,7 @@ public class LuaLoader implements JavaFunction, Connector.SignInListener {
 					// The Corona developer didn't add the permission to the AndroidManifest.xml
 					// As it is required for our app to function, we'll error out here
 					// If the permission were not critical, we could work around it here
-					permissionsServices.showPermissionMissingFromManifestAlert(permission, "plugin.gpgs.v2.getAccountName() requires GET_ACCOUNTS permission.");
+					permissionsServices.showPermissionMissingFromManifestAlert(permission, "plugin.gpgs.v3.getAccountName() requires GET_ACCOUNTS permission.");
 					break;
 				case DENIED:
 					if (!permissionsServices.shouldNeverAskAgain(permission)) {

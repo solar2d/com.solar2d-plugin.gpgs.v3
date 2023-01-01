@@ -4,8 +4,8 @@
 > __Type__              [Event][api.type.Event]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          Google Play Games Services, game network, gpgs
-> __See also__          [gpgs2.players.*][plugin.gpgs2.players]
->                       [gpgs2.*][plugin.gpgs2]
+> __See also__          [gpgs.players.*][plugin.gpgs3.players]
+>                       [gpgs.*][plugin.gpgs3]
 > --------------------- ------------------------------------------------------------------------------------------
 
 ## Overview
@@ -14,12 +14,12 @@ Carries requested players.
 
 ## Properties
 
-#### [event.name][plugin.gpgs2.players.event.load.name]
+#### [event.name][plugin.gpgs3.players.event.load.name]
 
-#### [event.isError][plugin.gpgs2.players.event.load.isError]
+#### [event.isError][plugin.gpgs3.players.event.load.isError]
 
-#### [event.errorMessage][plugin.gpgs2.players.event.load.errorMessage]
+#### [event.errorMessage][plugin.gpgs3.players.event.load.errorMessage]
 
-#### [event.errorCode][plugin.gpgs2.players.event.load.errorCode]
+#### [event.errorCode][plugin.gpgs3.players.event.load.errorCode]
 
-#### [event.players][plugin.gpgs2.players.event.load.players]
+#### [event.players][plugin.gpgs3.players.event.load.players]
