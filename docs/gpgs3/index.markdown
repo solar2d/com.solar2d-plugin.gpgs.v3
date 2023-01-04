@@ -1,7 +1,7 @@
 # Google Play Games Services
 
 > --------------------- ------------------------------------------------------------------------------------------
-> __Type__              [Library][api.type.library]
+> __Type__              [Library][api.type.Library]
 > __Revision__          [REVISION_LABEL](REVISION_URL)
 > __Keywords__          google, google play games services, achievements, leaderboards
 > __Platforms__         Android
@@ -13,7 +13,6 @@
 
 This plugin enables access to Google Play Games Services API, such as achievements, leaderboards and snapshots(Saved Games).
 
-</div>
 
 <div class="docs-tip-outer docs-tip-color-alert">
 <div class="docs-tip-inner-left">
@@ -26,33 +25,42 @@ If you encounter <nobr>Google Play Games Services</nobr> login issues/errors aft
 
 Also in order to use [snapshots][plugin.gpgs3.snapshots] you must add __Drive&nbsp;API__ within the [Google Play Developer Console](https://console.developers.google.com/).
 
+</div>
+</div>
 
-</div>
-</div>
+
 
 
 ## Changes from GPGS V2 to V3
 
 
 ### Changed Apis
-[gpgs.init()][plugin.gpgs3.init]
-Init is now required and will try sign in the player automatically
 
-[gpgs.isConnected(listener)][plugin.gpgs3.isConnected]
+#### [gpgs.init()][plugin.gpgs3.init]
+Initialize is now required and will attempt to sign in the player automatically
+
+#### [gpgs.isConnected(listener)][plugin.gpgs3.isConnected]
 isConnected is now async and has a callback. use isConnected to check if a player is automatically connected via [init][plugin.gpgs3.init] or manually [login][plugin.gpgs3.login] functions
 
-[gpgs.isAuthenticated()][plugin.gpgs3.isAuthenticated]
-isAuthenticated is actually the same but should be noted that isAuthenticated only applies when a logins in via [gpgs.login()][plugin.gpgs3.login]. This is important for [snapshots][plugin.gpgs3.snapshots] which need to use [gpgs.login()][plugin.gpgs3.login] for requesting __Drive&nbsp;API__ access.
+#### [gpgs.isAuthenticated()][plugin.gpgs3.isAuthenticated]
+isAuthenticated is actually the same but should be noted that isAuthenticated only applies for logins in via [gpgs.login()][plugin.gpgs3.login]. This is important for [Snapshots][plugin.gpgs3.snapshots] which is needed to use [gpgs.login()][plugin.gpgs3.login] for requesting __Drive&nbsp;API__ access.
+
+#### [gpgs.login()][plugin.gpgs3.login]
+There is a new `useDrive` param which is need for [Snapshots][plugin.gpgs3.snapshots]. It is import to note that the Drive scope is not added by default and you must set the `useDrive` param to `true`.
 
 ### No longer supported functions
 
-gpgs.setPopupPosition()
-gpgs.showSettings()
-gpgs.loadGame()
-gpgs.clearNotifications()
-gpgs.videos.*
+#### gpgs.setPopupPosition()
 
-Revert back [gpgs.v2][plugin.gpgs2] for this functionality
+#### gpgs.showSettings()
+
+#### gpgs.loadGame()
+
+#### gpgs.clearNotifications()
+
+#### gpgs.videos.*
+
+### Revert back to [gpgs.v2][plugin.gpgs2] to use these functions
 
 
 
