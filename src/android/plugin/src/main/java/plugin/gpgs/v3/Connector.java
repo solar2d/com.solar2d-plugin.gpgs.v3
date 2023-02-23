@@ -27,6 +27,7 @@ import com.google.android.gms.games.Games;
 import com.google.android.gms.games.GamesActivityResultCodes;
 import com.google.android.gms.games.GamesClient;
 import com.google.android.gms.games.PlayGames;
+import com.google.android.gms.games.PlayGamesSdk;
 import com.google.android.gms.games.Player;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -187,7 +188,8 @@ class Connector implements OnActivityResultHandler {
 				public void onComplete(@NonNull Task<GoogleSignInAccount> task) {
 					isConnecting = false;
 					if (task.isSuccessful()) {
-						lastConnectionCheck = true;
+						lastConnectionCheck = true;//Update Last Check
+						PlayGamesSdk.initialize(Connector.getContext());//init again
 						signInListener.onSignIn(SignInListener.SignInResult.SUCCESS);
 					} else {
 						signInListener.onSignIn(SignInListener.SignInResult.FAILED);
@@ -215,6 +217,8 @@ class Connector implements OnActivityResultHandler {
 		// We're coming back from an activity that was launched to resolve a connection problem. For example, a sign-in UI.
 		switch (resultCode) {
 			case Activity.RESULT_OK:
+				lastConnectionCheck = true;//Update Last Check
+				PlayGamesSdk.initialize(Connector.getContext());//init again
 				signInListener.onSignIn(SignInListener.SignInResult.SUCCESS);
 				break;
 			case GamesActivityResultCodes.RESULT_RECONNECT_REQUIRED:
